@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>An ArangoDB Foxx Demo Application</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="scripts.js"></script>
+<link type="text/css" rel="stylesheet" href="highlighter.css" />
+<link type="text/css" rel="stylesheet" href="bootstrap.css" />
+<link type="text/css" rel="stylesheet" href="layout.css" />
+
+<script type="text/javascript">
+$(document).ready(function () {
+  var makeId = function (url) {
+    return 'src' + url.replace(/^\/?([a-zA-Z0-9_]+).*$/, '$1');
+  };
+
+  $.ajax({
+    type: "GET",
+    url: "source",
+    async: false,
+    cache: false
+  })
+  .success(function (data) {
+    if (data) {
+      var name;
+
+      data.sections.forEach(function (s) {
+        var e = $('#examples');
+        e.append('<h2>' + s.name + '</h2>');
+        s.routes.forEach(function (r) {
+          if (r[2] === "NOLINK") {
+            e.append('<h3>' + r[1] + '</h3>');
+          } else {
+            e.append('<h3><a href="' + r[2] + '">' + r[1] + '</a></h3>');
+          }
+          e.append('<div class=\"example\"><p><pre style="display:none;" class="sh_javascript" id="' + makeId(r[0]) + '"></pre></p></div>');
+        });
+      });
+
+      for (name in data.sources) {
+        if (data.sources.hasOwnProperty(name)) {
+          $('#' + makeId(name)).html(data.sources[name]);
+          $('#' + makeId(name)).show();
+        }
+      }
+    }
+    sh_highlightDocument();
+  });
+});
+</script>
+</head>
+<body>
+<div class="container">
+
+ <div class="hero-unit">
+<h1>Foxx usage examples</h1>
+</div>
+
+<div class="alert alert-success">
+  <p>Click on the example name to see it in action.</p>
+</div>
+
+<div id="examples"></div>
+<pre>
+    /\
+   (~(
+    ) )     /\_/\
+   ( _-----_(@ @)
+     (       \ /
+     /|/--\|\ V
+     " "   " "
+    May the Foxx be with you.
+</pre>
+
+</div>
+
+</body>
+</html>

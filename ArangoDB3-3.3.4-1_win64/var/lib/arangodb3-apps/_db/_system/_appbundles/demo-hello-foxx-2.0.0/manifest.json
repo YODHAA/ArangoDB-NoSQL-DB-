@@ -1,0 +1,30 @@
+{
+  "name": "hello-foxx",
+  "version": "2.0.0",
+  "description": "This is 'Hello World' for ArangoDB Foxx.",
+  "author": "Frank Celler",
+  "thumbnail": "thumbnail.png",
+
+  "engines": {
+    "arangodb": "^3.0.0"
+  },
+
+  "main": "index.js",
+  "defaultDocument": "index.html",
+
+  "contributors": [
+    { "name": "luebbert42" },
+    { "name": "Alan Plum" }
+  ],
+
+  "scripts": {
+    "setup": "scripts/setup.js",
+    "teardown": "scripts/teardown.js"
+  },
+
+  "files": {
+    "/": "files"
+  },
+
+  "lib": "."
+}

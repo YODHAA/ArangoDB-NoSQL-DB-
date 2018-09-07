@@ -1,0 +1,165 @@
+2018/03/21-13:01:53.397290 16ac RocksDB version: 5.6.0
+2018/03/21-13:01:53.397496 16ac Git sha rocksdb_build_git_sha:@0@
+2018/03/21-13:01:53.397534 16ac Compile date Mar  6 2018
+2018/03/21-13:01:53.397747 16ac DB SUMMARY
+2018/03/21-13:01:53.398097 16ac SST files in D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb dir, Total Num: 0, files: 
+2018/03/21-13:01:53.398119 16ac Write Ahead Log file in D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb: 
+2018/03/21-13:01:53.398133 16ac                         Options.error_if_exists: 0
+2018/03/21-13:01:53.398296 16ac                       Options.create_if_missing: 1
+2018/03/21-13:01:53.398311 16ac                         Options.paranoid_checks: 1
+2018/03/21-13:01:53.398496 16ac                                     Options.env: 000002A133BE0070
+2018/03/21-13:01:53.398508 16ac                                Options.info_log: 000002A136010F30
+2018/03/21-13:01:53.398513 16ac                Options.max_file_opening_threads: 16
+2018/03/21-13:01:53.398518 16ac                               Options.use_fsync: 0
+2018/03/21-13:01:53.398527 16ac                       Options.max_log_file_size: 0
+2018/03/21-13:01:53.398532 16ac                  Options.max_manifest_file_size: 18446744073709551615
+2018/03/21-13:01:53.398537 16ac                   Options.log_file_time_to_roll: 0
+2018/03/21-13:01:53.398542 16ac                       Options.keep_log_file_num: 1000
+2018/03/21-13:01:53.398546 16ac                    Options.recycle_log_file_num: 0
+2018/03/21-13:01:53.398551 16ac                         Options.allow_fallocate: 1
+2018/03/21-13:01:53.398555 16ac                        Options.allow_mmap_reads: 0
+2018/03/21-13:01:53.398560 16ac                       Options.allow_mmap_writes: 0
+2018/03/21-13:01:53.398565 16ac                        Options.use_direct_reads: 0
+2018/03/21-13:01:53.398569 16ac                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/03/21-13:01:53.398574 16ac          Options.create_missing_column_families: 0
+2018/03/21-13:01:53.398578 16ac                              Options.db_log_dir: 
+2018/03/21-13:01:53.398583 16ac                                 Options.wal_dir: D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb
+2018/03/21-13:01:53.398588 16ac                Options.table_cache_numshardbits: 6
+2018/03/21-13:01:53.398593 16ac                      Options.max_subcompactions: 1
+2018/03/21-13:01:53.398597 16ac                  Options.max_background_flushes: -1
+2018/03/21-13:01:53.398602 16ac                         Options.WAL_ttl_seconds: 0
+2018/03/21-13:01:53.398607 16ac                       Options.WAL_size_limit_MB: 0
+2018/03/21-13:01:53.398611 16ac             Options.manifest_preallocation_size: 4194304
+2018/03/21-13:01:53.398616 16ac                     Options.is_fd_close_on_exec: 1
+2018/03/21-13:01:53.398621 16ac                   Options.advise_random_on_open: 1
+2018/03/21-13:01:53.398625 16ac                    Options.db_write_buffer_size: 0
+2018/03/21-13:01:53.398630 16ac         Options.access_hint_on_compaction_start: 1
+2018/03/21-13:01:53.398635 16ac  Options.new_table_reader_for_compaction_inputs: 1
+2018/03/21-13:01:53.398644 16ac               Options.compaction_readahead_size: 2097152
+2018/03/21-13:01:53.398653 16ac           Options.random_access_max_buffer_size: 1048576
+2018/03/21-13:01:53.398661 16ac           Options.writable_file_max_buffer_size: 1048576
+2018/03/21-13:01:53.398668 16ac                      Options.use_adaptive_mutex: 0
+2018/03/21-13:01:53.398672 16ac                            Options.rate_limiter: 0000000000000000
+2018/03/21-13:01:53.398678 16ac     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/03/21-13:01:53.398682 16ac                          Options.bytes_per_sync: 0
+2018/03/21-13:01:53.398687 16ac                      Options.wal_bytes_per_sync: 0
+2018/03/21-13:01:53.398692 16ac                       Options.wal_recovery_mode: 2
+2018/03/21-13:01:53.398696 16ac                  Options.enable_thread_tracking: 0
+2018/03/21-13:01:53.398725 16ac                  Options.enable_pipelined_write: 0
+2018/03/21-13:01:53.398734 16ac         Options.allow_concurrent_memtable_write: 1
+2018/03/21-13:01:53.398738 16ac      Options.enable_write_thread_adaptive_yield: 1
+2018/03/21-13:01:53.398743 16ac             Options.write_thread_max_yield_usec: 100
+2018/03/21-13:01:53.398748 16ac            Options.write_thread_slow_yield_usec: 3
+2018/03/21-13:01:53.398752 16ac                               Options.row_cache: None
+2018/03/21-13:01:53.398757 16ac                              Options.wal_filter: None
+2018/03/21-13:01:53.410285 16ac             Options.avoid_flush_during_recovery: 0
+2018/03/21-13:01:53.410294 16ac             Options.allow_ingest_behind: 0
+2018/03/21-13:01:53.410298 16ac             Options.max_background_jobs: 3
+2018/03/21-13:01:53.410303 16ac             Options.max_background_compactions: -1
+2018/03/21-13:01:53.410307 16ac             Options.avoid_flush_during_shutdown: 0
+2018/03/21-13:01:53.410312 16ac             Options.delayed_write_rate : 16777216
+2018/03/21-13:01:53.410317 16ac             Options.max_total_wal_size: 0
+2018/03/21-13:01:53.410321 16ac             Options.delete_obsolete_files_period_micros: 21600000000
+2018/03/21-13:01:53.410326 16ac                   Options.stats_dump_period_sec: 600
+2018/03/21-13:01:53.410331 16ac                          Options.max_open_files: -1
+2018/03/21-13:01:53.410336 16ac Compression algorithms supported:
+2018/03/21-13:01:53.410344 16ac 	Snappy supported: 1
+2018/03/21-13:01:53.410348 16ac 	Zlib supported: 0
+2018/03/21-13:01:53.410352 16ac 	Bzip supported: 0
+2018/03/21-13:01:53.410357 16ac 	LZ4 supported: 0
+2018/03/21-13:01:53.410361 16ac 	ZSTD supported: 0
+2018/03/21-13:01:53.410711 16ac Fast CRC32 supported: 1
+2018/03/21-13:01:53.410987 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl_open.cc:204] Creating manifest 1 
+2018/03/21-13:01:53.747835 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2682] Recovering from manifest file: MANIFEST-000001
+2018/03/21-13:01:53.760351 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\column_family.cc:414] --------------- Options for column family [default]:
+2018/03/21-13:01:53.760389 16ac               Options.comparator: ArangoComparator
+2018/03/21-13:01:53.760396 16ac           Options.merge_operator: None
+2018/03/21-13:01:53.760401 16ac        Options.compaction_filter: None
+2018/03/21-13:01:53.760406 16ac        Options.compaction_filter_factory: None
+2018/03/21-13:01:53.760412 16ac         Options.memtable_factory: SkipListFactory
+2018/03/21-13:01:53.760417 16ac            Options.table_factory: BlockBasedTable
+2018/03/21-13:01:53.760502 16ac            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002A135638D50)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000002A1355683C0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 2
+2018/03/21-13:01:53.760511 16ac        Options.write_buffer_size: 67108864
+2018/03/21-13:01:53.760516 16ac  Options.max_write_buffer_number: 2
+2018/03/21-13:01:53.760522 16ac          Options.compression: Snappy
+2018/03/21-13:01:53.760526 16ac                  Options.bottommost_compression: Disabled
+2018/03/21-13:01:53.760531 16ac       Options.prefix_extractor: nullptr
+2018/03/21-13:01:53.760536 16ac   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/03/21-13:01:53.760541 16ac             Options.num_levels: 7
+2018/03/21-13:01:53.760589 16ac        Options.min_write_buffer_number_to_merge: 1
+2018/03/21-13:01:53.760598 16ac     Options.max_write_buffer_number_to_maintain: 2
+2018/03/21-13:01:53.760603 16ac            Options.compression_opts.window_bits: -14
+2018/03/21-13:01:53.760608 16ac                  Options.compression_opts.level: -1
+2018/03/21-13:01:53.760613 16ac               Options.compression_opts.strategy: 0
+2018/03/21-13:01:53.760617 16ac         Options.compression_opts.max_dict_bytes: 0
+2018/03/21-13:01:53.760622 16ac      Options.level0_file_num_compaction_trigger: 4
+2018/03/21-13:01:53.760627 16ac          Options.level0_slowdown_writes_trigger: 20
+2018/03/21-13:01:53.760631 16ac              Options.level0_stop_writes_trigger: 36
+2018/03/21-13:01:53.760635 16ac                   Options.target_file_size_base: 67108864
+2018/03/21-13:01:53.760647 16ac             Options.target_file_size_multiplier: 1
+2018/03/21-13:01:53.760655 16ac                Options.max_bytes_for_level_base: 268435456
+2018/03/21-13:01:53.760664 16ac Options.level_compaction_dynamic_level_bytes: 0
+2018/03/21-13:01:53.760671 16ac          Options.max_bytes_for_level_multiplier: 10.000000
+2018/03/21-13:01:53.760713 16ac Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/03/21-13:01:53.760719 16ac Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/03/21-13:01:53.760724 16ac Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/03/21-13:01:53.760728 16ac Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/03/21-13:01:53.760733 16ac Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/03/21-13:01:53.760738 16ac Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/03/21-13:01:53.760742 16ac Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/03/21-13:01:53.760747 16ac       Options.max_sequential_skip_in_iterations: 8
+2018/03/21-13:01:53.760751 16ac                    Options.max_compaction_bytes: 1677721600
+2018/03/21-13:01:53.760756 16ac                        Options.arena_block_size: 8388608
+2018/03/21-13:01:53.760761 16ac   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/03/21-13:01:53.760766 16ac   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/03/21-13:01:53.760771 16ac       Options.rate_limit_delay_max_milliseconds: 100
+2018/03/21-13:01:53.760775 16ac                Options.disable_auto_compactions: 0
+2018/03/21-13:01:53.760782 16ac                        Options.compaction_style: kCompactionStyleLevel
+2018/03/21-13:01:53.760788 16ac                          Options.compaction_pri: kByCompensatedSize
+2018/03/21-13:01:53.760793 16ac Options.compaction_options_universal.size_ratio: 1
+2018/03/21-13:01:53.760797 16ac Options.compaction_options_universal.min_merge_width: 2
+2018/03/21-13:01:53.760802 16ac Options.compaction_options_universal.max_merge_width: 4294967295
+2018/03/21-13:01:53.760807 16ac Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/03/21-13:01:53.760812 16ac Options.compaction_options_universal.compression_size_percent: -1
+2018/03/21-13:01:53.760817 16ac Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/03/21-13:01:53.760822 16ac Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/03/21-13:01:53.760826 16ac Options.compaction_options_fifo.allow_compaction: 0
+2018/03/21-13:01:53.760831 16ac                   Options.table_properties_collectors: 
+2018/03/21-13:01:53.760836 16ac                   Options.inplace_update_support: 0
+2018/03/21-13:01:53.760840 16ac                 Options.inplace_update_num_locks: 10000
+2018/03/21-13:01:53.760845 16ac               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/03/21-13:01:53.760850 16ac   Options.memtable_huge_page_size: 0
+2018/03/21-13:01:53.760855 16ac                           Options.bloom_locality: 0
+2018/03/21-13:01:53.760859 16ac                    Options.max_successive_merges: 0
+2018/03/21-13:01:53.760864 16ac                Options.optimize_filters_for_hits: 0
+2018/03/21-13:01:53.760868 16ac                Options.paranoid_file_checks: 0
+2018/03/21-13:01:53.760875 16ac                Options.force_consistency_checks: 0
+2018/03/21-13:01:53.760881 16ac                Options.report_bg_io_stats: 0
+2018/03/21-13:01:53.763976 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2933] Recovered from manifest file:D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2018/03/21-13:01:53.764019 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2941] Column family [default] (ID 0), log number is 0
+2018/03/21-13:01:53.907667 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl_open.cc:1077] DB pointer 000002A13602DAE0
+2018/03/21-13:04:43.771618 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl.cc:221] Shutdown: canceling all background work
+2018/03/21-13:04:43.856544 16ac [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl.cc:347] Shutdown complete

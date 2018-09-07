@@ -1,0 +1,137 @@
+
+ Optimization of Databases for Distributed Internet of Things Analytical applications
+ =======================================================================================
+
+ One of the major challenge in the domain of the distributed internet of things is choosing
+ the appropriate Database for the application. A number of industries and laboratories still
+ rely upon relational database management systems for handling their data. But usually,
+ raw data that they encounter is not structured. It is highly complicated, fast-changing
+ and massive for conventional technologies to handle efficiently.
+
+ I think that handling big data is essential, and the lessons learned from building things 
+ from scratch are real game-changers when it comes to the tackling real world data. It is 
+ the NoSQL database systems that allow simpler scalability and improved performance in 
+ terms of maintaining big unstructured data.
+
+ So, using "ArangoDB" which s an open-source NoSQL database that not only works with 
+ documents but can also handle graphs natively.it is a multi-threaded “native multi-model 
+ database”, that allows us to store the data as key/value pairs, graphs or documents, 
+ and access any or all the data using a single declarative query language. It is called 
+ multi-model database as it allows ad hoc queries that we can run on data stored in 
+ different models. We can also choose single node or cluster execution. It worked quite
+ efficiently for graph algorithms processed across data spread throughout the cluster.
+
+ We can execute document queries, graph queries, joins and plus it has ACID support 
+ with multi-collection transactions. The key feature I liked is that it can combine 
+ different data models in single query that makes it easier to explore various
+ connections between data-points.
+
+ While still with some very good competitors like Neo4j for graphs and MongoDB 
+ for NoSQL, overall, ArangoDB is powerful and flexible because of its multi-model 
+ feature, fast-enough when deals with complex datasets, and ready to be used for 
+ production environment.
+
+
+
+ 1. https://www.arangodb.com/
+2. https://en.wikipedia.org/wiki/ArangoDB
+3 . Leonard, Anghel (2013). Pro Hibernate and MongoDB. 
+Apress. p. 384. ISBN 9781430257943 – via Google Play. Multimodel databases (.)
+4. Vaish, Gaurav (2013). Getting Started with Nosql. Packt Publishing Ltd. p. 142. 
+ISBN 9781849694995 – via Google Play. ArangoDB: Universal database with support for 
+document store, key-value and graph models.
+
+
+
+
+./runTest.sh arangodb $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+./runTest.sh arangodb_mmfiles $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+./runTest.sh neo4j $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+./runTest.sh orientdb $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+./runTest.sh postgresql_jsonb $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+./runTest.sh postgresql_tabular $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+./runTest.sh mongodb $TEST_IP $LOOP_COUNT $BENCHMARK $DBFOLDER $RUSER
+
+
+
+
+
+Graphical Interpretation of data using ArangoDB :
+------------------------------------------------
+  
+   We will write a cmd of ArangoDB :
+
+   http://127.0.0.1:8529
+
+
+   1. select * from users                                for user in users
+                                                                   return users
+
+   2. select name from users                             for user in users 
+                                                                   return user.name
+
+   3. select name form users where active= 1 ;              for user in users 
+                                                               filter user.active == 1
+                                                               return user.name
+
+   4. update users                                          update { _key: "1"}
+         set name="john smith"                                    with { name : "john smith"}
+         where id=1 ;                                            in users 
+
+   5. delete from users                                     for user in users
+         where active= 1;                                         filter user.active==1 
+                                                                  remove user in users
+
+    6. insert into users (name,active)                         INSERT { name: "john" , active: 1}
+            values ("john " , 1) ;                                         into users                     
+
+    7. select gender count(*) as numbers                       for user in users
+            from  users where active=1                             filter user.active==1
+             group by gender;                                    collect gender=user.gender 
+                                                                 with count into numbers return { gender: gender, number:number}
+
+    8. select * from users                                      for user in users
+           inner join friends on                                  for friend in friends 
+           (friends.user =users.id)                                   filter friend.user == user._key
+                                                                   return { user: user , friend : friend}
+
+
+  create a collection : 
+
+  1. INSERT { foo: "bar" } INTO mycollection
+
+  2. FOR x IN mycollection
+ RETURN x
+
+ 3. FOR value IN 1..100
+INSERT {val: value} INTO mycollection
+
+ 4. FOR x IN mycollection
+FILTER x.val==42
+RETURN x
+
+ 5. two storage engines: mmfiles and RocksDB  (Memory mapped file) 
+      MMFILES are generally well suited for use-cases that fit into main memory, while RocksDB allows larger than memory work-sets.
+
+ current (MMAP files) engine has collection-level locks, so write-write conflicts are not possible. The RocksDB engine has document-level locks, so write-write conflicts are possible.
+
+ It is not possible yet to mix modes or to use different storage engines in the same ArangoDB instance or cluster.
+
+
+ D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3-apps\_db\_system\test\APP\routes>notepad mytest.js 
+
+ edit summary : see via api change the database content .
+
+
+ 6. INSERT {_key: "2" } INTO vertices
+
+ 7. INSERT {_from: "vertices/2", _to:"vertices/1" } INTO edges
+
+ 8. FOR v,e,p IN 1 INBOUND 'vertices/1' edges
+RETURN p
+
+    several edge collection into one graph . 
+
+ 9. 
+
+ 

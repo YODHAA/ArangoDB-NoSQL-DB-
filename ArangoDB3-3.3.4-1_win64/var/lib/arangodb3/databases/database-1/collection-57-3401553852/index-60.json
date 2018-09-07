@@ -1,0 +1,1 @@
+{"deduplicate":true,"fields":["mount"],"id":"60","selectivityEstimate":1,"sparse":false,"type":"hash","unique":true}

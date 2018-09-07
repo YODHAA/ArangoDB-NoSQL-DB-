@@ -1,0 +1,171 @@
+2018/03/21-13:06:52.616687 1828 RocksDB version: 5.6.0
+2018/03/21-13:06:52.616796 1828 Git sha rocksdb_build_git_sha:@0@
+2018/03/21-13:06:52.616848 1828 Compile date Mar  6 2018
+2018/03/21-13:06:52.616876 1828 DB SUMMARY
+2018/03/21-13:06:52.617172 1828 CURRENT file:  CURRENT
+2018/03/21-13:06:52.617203 1828 IDENTITY file:  IDENTITY
+2018/03/21-13:06:52.617245 1828 MANIFEST file:  MANIFEST-000001 size: 13 Bytes
+2018/03/21-13:06:52.617271 1828 SST files in D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb dir, Total Num: 0, files: 
+2018/03/21-13:06:52.617292 1828 Write Ahead Log file in D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb: 000003.log size: 0 ; 
+2018/03/21-13:06:52.617313 1828                         Options.error_if_exists: 0
+2018/03/21-13:06:52.625873 1828                       Options.create_if_missing: 1
+2018/03/21-13:06:52.625913 1828                         Options.paranoid_checks: 1
+2018/03/21-13:06:52.625929 1828                                     Options.env: 0000022C924B98A0
+2018/03/21-13:06:52.625956 1828                                Options.info_log: 0000022C94973160
+2018/03/21-13:06:52.625971 1828                Options.max_file_opening_threads: 16
+2018/03/21-13:06:52.625985 1828                               Options.use_fsync: 0
+2018/03/21-13:06:52.626012 1828                       Options.max_log_file_size: 0
+2018/03/21-13:06:52.626026 1828                  Options.max_manifest_file_size: 18446744073709551615
+2018/03/21-13:06:52.626040 1828                   Options.log_file_time_to_roll: 0
+2018/03/21-13:06:52.626054 1828                       Options.keep_log_file_num: 1000
+2018/03/21-13:06:52.626068 1828                    Options.recycle_log_file_num: 0
+2018/03/21-13:06:52.626092 1828                         Options.allow_fallocate: 1
+2018/03/21-13:06:52.626108 1828                        Options.allow_mmap_reads: 0
+2018/03/21-13:06:52.626121 1828                       Options.allow_mmap_writes: 0
+2018/03/21-13:06:52.626133 1828                        Options.use_direct_reads: 0
+2018/03/21-13:06:52.626145 1828                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/03/21-13:06:52.626158 1828          Options.create_missing_column_families: 0
+2018/03/21-13:06:52.626173 1828                              Options.db_log_dir: 
+2018/03/21-13:06:52.626187 1828                                 Options.wal_dir: D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb
+2018/03/21-13:06:52.626203 1828                Options.table_cache_numshardbits: 6
+2018/03/21-13:06:52.626216 1828                      Options.max_subcompactions: 1
+2018/03/21-13:06:52.626230 1828                  Options.max_background_flushes: -1
+2018/03/21-13:06:52.626251 1828                         Options.WAL_ttl_seconds: 0
+2018/03/21-13:06:52.626265 1828                       Options.WAL_size_limit_MB: 0
+2018/03/21-13:06:52.626280 1828             Options.manifest_preallocation_size: 4194304
+2018/03/21-13:06:52.626294 1828                     Options.is_fd_close_on_exec: 1
+2018/03/21-13:06:52.626302 1828                   Options.advise_random_on_open: 1
+2018/03/21-13:06:52.626310 1828                    Options.db_write_buffer_size: 0
+2018/03/21-13:06:52.626318 1828         Options.access_hint_on_compaction_start: 1
+2018/03/21-13:06:52.626325 1828  Options.new_table_reader_for_compaction_inputs: 1
+2018/03/21-13:06:52.626333 1828               Options.compaction_readahead_size: 2097152
+2018/03/21-13:06:52.626340 1828           Options.random_access_max_buffer_size: 1048576
+2018/03/21-13:06:52.626348 1828           Options.writable_file_max_buffer_size: 1048576
+2018/03/21-13:06:52.626356 1828                      Options.use_adaptive_mutex: 0
+2018/03/21-13:06:52.626364 1828                            Options.rate_limiter: 0000000000000000
+2018/03/21-13:06:52.626372 1828     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/03/21-13:06:52.626380 1828                          Options.bytes_per_sync: 0
+2018/03/21-13:06:52.626388 1828                      Options.wal_bytes_per_sync: 0
+2018/03/21-13:06:52.626460 1828                       Options.wal_recovery_mode: 2
+2018/03/21-13:06:52.626482 1828                  Options.enable_thread_tracking: 0
+2018/03/21-13:06:52.626494 1828                  Options.enable_pipelined_write: 0
+2018/03/21-13:06:52.626502 1828         Options.allow_concurrent_memtable_write: 1
+2018/03/21-13:06:52.626510 1828      Options.enable_write_thread_adaptive_yield: 1
+2018/03/21-13:06:52.626518 1828             Options.write_thread_max_yield_usec: 100
+2018/03/21-13:06:52.626525 1828            Options.write_thread_slow_yield_usec: 3
+2018/03/21-13:06:52.626533 1828                               Options.row_cache: None
+2018/03/21-13:06:52.626541 1828                              Options.wal_filter: None
+2018/03/21-13:06:52.626557 1828             Options.avoid_flush_during_recovery: 0
+2018/03/21-13:06:52.626565 1828             Options.allow_ingest_behind: 0
+2018/03/21-13:06:52.626573 1828             Options.max_background_jobs: 3
+2018/03/21-13:06:52.626581 1828             Options.max_background_compactions: -1
+2018/03/21-13:06:52.626588 1828             Options.avoid_flush_during_shutdown: 0
+2018/03/21-13:06:52.626596 1828             Options.delayed_write_rate : 16777216
+2018/03/21-13:06:52.626604 1828             Options.max_total_wal_size: 0
+2018/03/21-13:06:52.626612 1828             Options.delete_obsolete_files_period_micros: 21600000000
+2018/03/21-13:06:52.626619 1828                   Options.stats_dump_period_sec: 600
+2018/03/21-13:06:52.626627 1828                          Options.max_open_files: -1
+2018/03/21-13:06:52.626636 1828 Compression algorithms supported:
+2018/03/21-13:06:52.626647 1828 	Snappy supported: 1
+2018/03/21-13:06:52.626654 1828 	Zlib supported: 0
+2018/03/21-13:06:52.626661 1828 	Bzip supported: 0
+2018/03/21-13:06:52.626668 1828 	LZ4 supported: 0
+2018/03/21-13:06:52.626675 1828 	ZSTD supported: 0
+2018/03/21-13:06:52.626696 1828 Fast CRC32 supported: 1
+2018/03/21-13:06:52.629029 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2682] Recovering from manifest file: MANIFEST-000001
+2018/03/21-13:06:52.635335 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\column_family.cc:414] --------------- Options for column family [default]:
+2018/03/21-13:06:52.635394 1828               Options.comparator: ArangoComparator
+2018/03/21-13:06:52.635406 1828           Options.merge_operator: None
+2018/03/21-13:06:52.635416 1828        Options.compaction_filter: None
+2018/03/21-13:06:52.635424 1828        Options.compaction_filter_factory: None
+2018/03/21-13:06:52.635432 1828         Options.memtable_factory: SkipListFactory
+2018/03/21-13:06:52.635440 1828            Options.table_factory: BlockBasedTable
+2018/03/21-13:06:52.635542 1828            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000022C93EA4C90)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000022C93EBB400
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 2
+2018/03/21-13:06:52.635557 1828        Options.write_buffer_size: 67108864
+2018/03/21-13:06:52.635567 1828  Options.max_write_buffer_number: 2
+2018/03/21-13:06:52.635575 1828          Options.compression: Snappy
+2018/03/21-13:06:52.635582 1828                  Options.bottommost_compression: Disabled
+2018/03/21-13:06:52.635591 1828       Options.prefix_extractor: nullptr
+2018/03/21-13:06:52.635599 1828   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/03/21-13:06:52.635674 1828             Options.num_levels: 7
+2018/03/21-13:06:52.635688 1828        Options.min_write_buffer_number_to_merge: 1
+2018/03/21-13:06:52.635696 1828     Options.max_write_buffer_number_to_maintain: 2
+2018/03/21-13:06:52.635704 1828            Options.compression_opts.window_bits: -14
+2018/03/21-13:06:52.635712 1828                  Options.compression_opts.level: -1
+2018/03/21-13:06:52.635720 1828               Options.compression_opts.strategy: 0
+2018/03/21-13:06:52.635728 1828         Options.compression_opts.max_dict_bytes: 0
+2018/03/21-13:06:52.635736 1828      Options.level0_file_num_compaction_trigger: 4
+2018/03/21-13:06:52.635743 1828          Options.level0_slowdown_writes_trigger: 20
+2018/03/21-13:06:52.635751 1828              Options.level0_stop_writes_trigger: 36
+2018/03/21-13:06:52.635759 1828                   Options.target_file_size_base: 67108864
+2018/03/21-13:06:52.635767 1828             Options.target_file_size_multiplier: 1
+2018/03/21-13:06:52.635774 1828                Options.max_bytes_for_level_base: 268435456
+2018/03/21-13:06:52.635782 1828 Options.level_compaction_dynamic_level_bytes: 0
+2018/03/21-13:06:52.635790 1828          Options.max_bytes_for_level_multiplier: 10.000000
+2018/03/21-13:06:52.635831 1828 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/03/21-13:06:52.635840 1828 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/03/21-13:06:52.635847 1828 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/03/21-13:06:52.635855 1828 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/03/21-13:06:52.635863 1828 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/03/21-13:06:52.635871 1828 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/03/21-13:06:52.635879 1828 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/03/21-13:06:52.635887 1828       Options.max_sequential_skip_in_iterations: 8
+2018/03/21-13:06:52.635895 1828                    Options.max_compaction_bytes: 1677721600
+2018/03/21-13:06:52.635903 1828                        Options.arena_block_size: 8388608
+2018/03/21-13:06:52.635910 1828   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/03/21-13:06:52.635918 1828   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/03/21-13:06:52.635927 1828       Options.rate_limit_delay_max_milliseconds: 100
+2018/03/21-13:06:52.635935 1828                Options.disable_auto_compactions: 0
+2018/03/21-13:06:52.635945 1828                        Options.compaction_style: kCompactionStyleLevel
+2018/03/21-13:06:52.635954 1828                          Options.compaction_pri: kByCompensatedSize
+2018/03/21-13:06:52.635962 1828 Options.compaction_options_universal.size_ratio: 1
+2018/03/21-13:06:52.635970 1828 Options.compaction_options_universal.min_merge_width: 2
+2018/03/21-13:06:52.635978 1828 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/03/21-13:06:52.635986 1828 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/03/21-13:06:52.635994 1828 Options.compaction_options_universal.compression_size_percent: -1
+2018/03/21-13:06:52.636003 1828 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/03/21-13:06:52.636011 1828 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/03/21-13:06:52.636019 1828 Options.compaction_options_fifo.allow_compaction: 0
+2018/03/21-13:06:52.636027 1828                   Options.table_properties_collectors: 
+2018/03/21-13:06:52.636035 1828                   Options.inplace_update_support: 0
+2018/03/21-13:06:52.636042 1828                 Options.inplace_update_num_locks: 10000
+2018/03/21-13:06:52.636050 1828               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/03/21-13:06:52.636059 1828   Options.memtable_huge_page_size: 0
+2018/03/21-13:06:52.636067 1828                           Options.bloom_locality: 0
+2018/03/21-13:06:52.636074 1828                    Options.max_successive_merges: 0
+2018/03/21-13:06:52.636082 1828                Options.optimize_filters_for_hits: 0
+2018/03/21-13:06:52.636094 1828                Options.paranoid_file_checks: 0
+2018/03/21-13:06:52.636104 1828                Options.force_consistency_checks: 0
+2018/03/21-13:06:52.636112 1828                Options.report_bg_io_stats: 0
+2018/03/21-13:06:52.639312 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2933] Recovered from manifest file:D:\Projects-Simplified\ArangoDB\ArangoDB3-3.3.4-1_win64\var\lib\arangodb3\rocksdb/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2018/03/21-13:06:52.639362 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2941] Column family [default] (ID 0), log number is 0
+2018/03/21-13:06:52.656759 1828 EVENT_LOG_v1 {"time_micros": 1521617812639692, "job": 1, "event": "recovery_started", "log_files": [3]}
+2018/03/21-13:06:52.657649 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl_open.cc:494] Recovering log #3 mode 2
+2018/03/21-13:06:52.657956 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\version_set.cc:2468] Creating manifest 5
+2018/03/21-13:06:52.737587 1828 EVENT_LOG_v1 {"time_micros": 1521617812737481, "job": 1, "event": "recovery_finished"}
+2018/03/21-13:06:52.770809 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl_open.cc:1077] DB pointer 0000022C94994540
+2018/03/21-14:49:18.037530 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl.cc:221] Shutdown: canceling all background work
+2018/03/21-14:49:18.265237 1828 [c:\b\workspace\release__buildpackages\3rdparty\rocksdb\v5.6.x\db\db_impl.cc:347] Shutdown complete
